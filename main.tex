@@ -1,0 +1,61 @@
+
+\documentclass[a4paper,12pt,oneside]{scrbook}
+
+%----------------------------------------------------------------------------------------
+% PAQUETES Y ESTILO
+%----------------------------------------------------------------------------------------
+
+\include{tex/setup}
+
+%----------------------------------------------------------------------------------------
+% INFORMACION DEL DOCUMENTO
+%----------------------------------------------------------------------------------------
+
+\title{Extensión móvil para sistemas de ventas propietarios (Intraza)}
+\author{Juan Ignacio Cuerno Lagos}
+\date{\today}
+
+%========================================================================================
+% DOCUMENTO
+%----------------------------------------------------------------------------------------
+\begin{document}
+
+\frontmatter % Define la parte inicial del libro, que suele ir compuesto por:
+
+\include{tex/titulo} % Título personalizado
+\tableofcontents % Indice de contenidos
+\listoffigures % Indice de figuras
+
+%----------------------------------------------------------------------------------------
+
+\mainmatter % Define la parte frincipal del libro, el contenido
+\part{Introducción}
+	\include{tex/consideraciones}
+
+\part{Viabilidad}
+	\include{tex/analisis}
+	\include{tex/historias}
+\part{Tecnologías}
+	\include{tex/tecnologias}
+\part{Fundamentos}
+	\include {tex/fundamentos}	
+\part{Estructura}
+	\include{tex/estructura}
+\part{Conclusiones}
+	\include{tex/conclusiones}
+\part {Anexos}
+	\include{tex/glosario}
+	\include{tex/anexos}
+	
+	
+
+%----------------------------------------------------------------------------------------
+
+\backmatter
+
+% Bibliografía, glosario, ...
+\bibliographystyle{plainnat}
+\bibliography{biblio}
+
+\end{document}
+%========================================================================================

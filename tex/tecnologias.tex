@@ -1,0 +1,61 @@
+\chapter{Tecnologías utilizadas}
+
+A continuación se presentarán las tecnologías empleadas que permitieron el desarrollo de la herramienta en cuestión. Primero se listan y explican los lenguajes utilizados para la programación y diseño/desarrollo de interfaces, luego las herramientas que dieron soporte al proceso de desarrollo y por último los  entornos  utilizados. 
+
+\section{Lenguajes utilizados}
+Se pueden clasificar según su utilización:
+
+\begin{itemize}
+	\item \emph{\textbf{Java:}} La herramienta está desarrollada en mayor parte en este lenguaje, ya previamente conocido por el equipo de desarrollo y además tiene las ventajas de disponer de mucha documentación en la web. Para el desarrollo en este lenguaje se  utiliza  el  jdk  1.8. \cite{java} \\
+ 	\item \emph{\textbf{Groovy:}} Es un lenguaje de programación orientado a objetos implementado sobre la plataforma Java. Tiene características similares a Python, Ruby, Perl y Smalltalk. Se obtiene mayor nivel de abstracción con este lenguaje. \cite{groovy}
+\end{itemize}
+
+\section{Herramientas utilizadas}
+A continuación se listan las herramientas utilizadas dentro del proceso de   desarrollo  de  la  herramienta: \\
+
+\begin{itemize}
+	\item \emph{\textbf{Git+GitHub:}} Para el control de versiones se utilizó Git, un sistema distribuido de control de versiones. Al ser distribuido,   cada desarrollador cuenta con un “clon” completo del repositorio. Cada uno puede realizar cambios sobre el proyecto, lo que permite ser autónomo y trabajar en cualquier situación. Como repositorio central, se decidió utilizar los servicios de GitHub, una plataforma de desarrollo colaborativo de software para el alojamiento de repositorios de proyectos   utilizando el sistema de control de versiones Git. El código se   almacena de forma pública bajo licencias de código Open   Source.  
+	\item \emph{\textbf{Kunagi:}} Entre las necesidades para encarar una metodología ágil inspirada en SCRUM, era necesario una herramienta de   soporte para la gestión del desarrollo ágil sin implicar mayores complejidades técnicas. Como se explicó anteriormente,  Kunagi ofrece la administración integrada de proyectos complementando la metodología SCRUM a través de otras mejores prácticas para cubrir todas las necesidades para la   administración de proyectos. Esta herramienta corre     localmente en la máquina de un integrante del equipo, sobre un  servidor  Apache  Tomcat. 
+	\item \emph{\textbf{Gimp:}} Es un programa de edición de imágenes digitales, tanto dibujos como fotografías. Es un programa libre y gratuito. Forma parte del proyecto GNU y está disponible bajo la Licencia pública general de GNU y GNU Lesser General Public License.
+
+\end{itemize}
+	
+\section{Entornos de desarrollo}	
+Los  entornos  de  programación  utilizados  fueron: 
+
+\begin{itemize}
+	\item \emph{\textbf{Eclipse:}} Es una plataforma de software compuesto por un conjunto de herramientas de programación de código abierto multi-plataforma para desarrollar lo que el proyecto llama "Aplicaciones de Cliente Enriquecido", opuesto a las aplicaciones "Cliente-liviano" basadas en navegadores. 
+	Esta plataforma, típicamente ha sido usada para desarrollar entornos de desarrollo integrados (del inglés IDE), como el IDE de Java llamado Java Development Toolkit (JDT) y el compilador (ECJ) que se entrega como parte de Eclipse (y que son usados también para desarrollar el mismo Eclipse).\cite{eclipse}
+ 	
+ 	\item \emph{\textbf{Android Studio:}} Es el entorno de desarrollo integrado oficial para la plataforma Android. Fue anunciado el 16 de mayo de 2013 en la conferencia Google I/O, y reemplazó a Eclipse como el IDE oficial para el desarrollo de aplicaciones para Android. La primera versión estable fue publicada en diciembre de 2014. \cite{astudio}
+\end{itemize}
+
+	\begin{wrapfigure}{r}{21cm}	
+		\centering
+		\includegraphics[width=0.14\textwidth]{figuras/git}
+		\includegraphics[width=0.13\textwidth]{figuras/groovy}
+		\includegraphics[width=0.09\textwidth]{figuras/java}
+		\includegraphics[width=0.09\textwidth]{figuras/gimp}
+		\includegraphics[width=0.09\textwidth]{figuras/eclipse}
+		\includegraphics[width=0.08\textwidth]{figuras/astudio}	
+	\end{wrapfigure}
+
+\clearpage
+
+
+\section{Últimas consideraciones}
+	
+A parte de los entornos de programación tomamos en consideración dos herramientas que mejoran sustancialmente la estructura de las aplicaciones.
+
+\begin{itemize}
+	\item \emph{\textbf{Lombok project: }} paquete de librerías en java que permiten ignorar ciertas estructuras tediosas (getters, setters, constructores...) que son integradas en tiempo de compilación. \cite{lombok}
+	
+	\item \emph{\textbf{AndroidAnnotations: }} paquete de librerías en java que facilita el mantenimiento de aplicaciones en Android, dando una estructura más sencilla de gestionar y fácil de mantener.\cite{ann}
+	\begin{itemize}
+		\item \emph{\textbf{Inyección de dependencias: }} inyecta vistas, extras,  servicios, recursos, ...
+		\item \emph{\textbf{Modelo de subprocesamiento simplificado: }} anotar métodos para ejecutarlos en subprocesos.
+		\item \emph{\textbf{Enlace de eventos: }} anotar métodos para controlar eventos en vistas, eliminamos las subclases del tipo\textsl{} listener.
+		\item \emph{\textbf{Cliente REST: }} Crea una interfaz de cliente, AndroidAnnotations genera la implementación.
+		\item \emph{\textbf{Sin Magia: }} Como se generan subclases en tiempo de compilación, se puede comprobar el código para ver cómo funciona.	
+	\end{itemize}
+\end{itemize}

@@ -1,0 +1,52 @@
+\chapter{Descripción del proyecto}
+\setlength{\parindent}{2em}
+
+Esta memoria documenta el trabajo realizado como freelance para desarrollar una aplicación que se detalla más adelante. Para este TFG se han realizado modificaciones al código para eliminar elementos creados específicamente para este cliente, con la finalidad de mostrar más claramente las características de la aplicación. El desarrollo del proyecto siguió los pasos que se han descrito en este documento. 
+
+Intraza es una aplicación Android desarrollada para PYMES que quieren dotar de nuevas funcionalidades móviles a su sistema de pedidos sin tener que realizar grandes modificaciones ni una inversión costosa.  Se integra con su sistema de pedidos sin necesidad de realizar cambios en la aplicación, tras un análisis del funcionamiento de su sistema de ventas.  En el ejemplo que nos ocupa la aplicación fue desarrollada para una empresa de distribución cárnica de Mallorca, que disponía de un ERP desarrollado por TECHNICALNORMS SL.\\
+
+Intraza está orientada a servir como herramienta portátil para realizar pedidos por parte del área comercial de la PYME. Los comerciales disponen de los datos necesarios para tramitar pedidos en una Tableta con sistema Android y guardarlos para después enviarlos al sistema de pre-pedidos de la aplicación. Uno de los requisitos planteados por la especial orografía de Mallorca fue la posibilidad de generar los pedidos offline y poder enviarlos cuando hubiese posibilidad de conexión, ya fuese por conexión wifi o 3G.\\
+
+Cabe destacar que a día de hoy sociedad que dirigía la empresa de distribución cárnica, está disuelta y tal ruptura ha generado empresas paralelas. Estas han roto la relación contractual con TECHNICALNORMS SL.  Los acuerdos realizados con TECHNICALNORMS SL para el mantenimiento de la misma quedaron disueltos. 
+
+El autor de este proyecto es propietario de los derechos y se presenta  simplificado, eliminando funcionalidad específica de TECHNICALNORMS SL. Para poder ejemplificar su funcionamiento se ha creado un ERP simple desarrollado con metodologías ágiles, cuya funcionalidad no forma parte de este proyecto.\\
+
+Intraza se compone de dos módulos diferenciados.
+	\begin{itemize}
+		\item[*] Por un lado, un servicio web JAVA - REST que hará de interfaz de comunicación entre la app Android y la base de datos del ERP.  Este módulo contiene las consultas necesarias para alimentar la base de datos interna de la app, además de los procesos necesarios para enviar los pre-pedidos a la herramienta.
+		\item[*]	Por otro lado, una aplicación Android, con una base de datos interna con datos de clientes, productos, e histórico de pedidos, para poder realizar pedidos in situ.
+	\end{itemize}
+
+\section{Contexto}
+Dado que el proyecto se basa en la adaptación a un sistema ERP, lo primero que se ha de documentar es en qué se basa la tecnología ERP. 
+
+Los sistemas ERP (Planificación de Recursos Empresariales) son sistemas de gestión de información que integran y automatizan muchas de las prácticas de negocio asociadas con los aspectos operativos, productivos o de distribución de una empresa o compañía comprometida en la producción de bienes o servicios. Se caracterizan por estar compuestos por diferentes partes integradas en una única aplicación, estas partes suelen corresponder a cada uno de los diferentes departamentos de una empresa, por ejemplo: producción, ventas, compras, contabilidad, RRHH, logística, etc. 
+
+Los objetivos principales de los sistemas ERP son: 
+
+\begin{itemize}
+	\item Optimización de los procesos empresariales. 
+	\item Acceso a toda la información de forma confiable, precisa y oportuna (integridad de datos). 
+	\item La posibilidad de compartir información entre todos los componentes de la organización. 
+	\item Eliminación de datos y operaciones innecesarias de re-ingeniería. 
+\end{itemize}
+
+El propósito fundamental de un ERP es otorgar apoyo a los clientes del negocio, tiempos rápidos de respuesta a sus problemas, así como un eficiente manejo de información que permita la toma oportuna de decisiones y disminución de los costos totales de operación. 
+
+Los ERP son sistemas software que se caracterizan por ser modulares, integrales y adaptables a las necesidades del cliente. Además un ERP no es solo una aplicación sino que requiere de un equipo técnico para darle soporte según las necesidades del cliente.
+
+\section{Objetivos del proyecto}
+
+El objetivo de esta aplicación, es ser una herramienta portátil, sencilla de gestionar y visualmente atractiva, que agilice el proceso de pedido por parte de los comerciales cuando realizan visitas al cliente.
+El objetivo como diseñador y desarrollador de un producto, es satisfacer las necesidades del cliente, priorizando la sencillez y una estética depurada, con tal de conseguir una herramienta fácil de usar por los usuarios, además de ser una tarjeta de presentación del saber hacer de la PYME.
+
+\section{Cómo surgió la idea}
+
+La idea de crear esta aplicación me fue transmitida por TECHNICALNORMS SL. La empresa solicitante buscaba dar soporte a una pequeña parte de su negocio, clientes menores, a través de desarrollos puntuales, ya sean como outsourcing o con desarrolladores Freelance. 
+La empresa cliente plantea la mejora de una herramienta en una versión obsoleta. Tras el análisis y viendo que tenía varios errores de concepto. Se plantea el desarrollo de una aplicación nueva con el conocimiento adquirido, de la anterior, y mejorando el rendimiento de la misma. Este proyecto se desarrolló durante el 1º semestre del año 2015.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\linewidth]{figuras/idea}
+	\label{fig:idea}
+\end{figure}

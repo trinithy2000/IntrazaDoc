@@ -1,0 +1,179 @@
+% IMPORTANTE
+% Para poner barrabaja en una url hay que cambiar '_' por '\textunderscore'
+
+%========================================================================================
+% PAQUETES
+%=======================================================================================
+\usepackage[table]{xcolor}
+\usepackage[spanish]{babel} % Indicar idioma español
+\usepackage[utf8]{inputenc} % Poder poner tildes directamente
+\usepackage{graphicx} % Para incluir gráficos
+\usepackage{cite} % Para crear referencias
+\usepackage{svg} % Para usar imágenes en formato vectorial
+\usepackage{float} % Para modificar como aparecen las imagenes
+\usepackage{listings} % Para introducir código
+\usepackage{times}
+\usepackage{color} % para añadir colores
+\usepackage[pdftex,
+			pdfauthor={Juan Ignacio Cuerno Lagos},
+			pdftitle={Extensión móvil para sistemas de ventas propietarios(Intraza)},
+			pdfsubject={Intraza},
+			pdfkeywords={Android, Java, Grails},
+			pdfproducer={Latex},
+			pdfcreator={pdflatex}]{hyperref}  % Para que se creen enlaces en el documento (a otras partes o a la web) y para añadir metadatos al PDF generado
+\usepackage{AnonymousPro}
+\usepackage{url}
+\usepackage[Bjornstrup]{fncychap} % Para poner los títulos de los capítulos más bonitos
+\usepackage{fancyhdr} % Para configurar las cabeceras y los piés de página
+\usepackage{titling} % Para usar la información del documento en otras partes de él
+\usepackage{caption}
+\usepackage{minted}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\usepackage{tikz}
+\usepackage{eurosym}
+\usepackage{wrapfig}
+\usepackage{blindtext}
+\usepackage{nameref}
+\usepackage{xcolor}
+\usepackage{amstext} % for \text
+\DeclareRobustCommand{\officialeuro}{%
+\ifmmode\expandafter\text\fi
+{\fontencoding{U}\fontfamily{eurosym}\selectfont e}}
+
+
+%========================================================================================
+% ESTILO
+%========================================================================================
+
+%----------------------------------------------------------------------------------------
+% RUTAS PARA LAS IMAGENES
+%----------------------------------------------------------------------------------------
+
+\graphicspath{{./figuras/}}
+
+%----------------------------------------------------------------------------------------
+% ARREGLO PARA EL INDICE DE FIGURAS
+%----------------------------------------------------------------------------------------
+
+\makeatletter
+\renewcommand*\l@figure{\@dottedtocline{1}{1em}{3.2em}}
+\makeatother
+
+%----------------------------------------------------------------------------------------
+% TIPOGRAFIA
+%----------------------------------------------------------------------------------------
+
+\renewcommand{\familydefault}{\sfdefault} % Cambia la tipografía de todo el documento
+\setlength{\parskip}{2mm} % Define la distancia entre parrafos (por defecto = 0)
+
+%----------------------------------------------------------------------------------------
+% CABECERAS Y PIES DE PAGINA
+%----------------------------------------------------------------------------------------
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[CE,CO]{\leftmark}
+\fancyhead[LE,RO]{\thepage}
+\fancyfoot[RE,LO]{Juan Ignacio Cuerno Lagos}
+\fancyfoot[LE,RO]{\thepage}
+
+\renewcommand{\headrulewidth}{2pt}
+\renewcommand{\footrulewidth}{1pt}
+
+%----------------------------------------------------------------------------------------
+% ENLACES
+%----------------------------------------------------------------------------------------
+
+\hypersetup{
+	colorlinks,
+	citecolor=black,
+	filecolor=black,
+	linkcolor=black,
+	urlcolor=blue
+}
+
+%----------------------------------------------------------------------------------------
+% NUMERO DE PROFUNDIDAD DE NUMERACION DE CONENIDOS
+%----------------------------------------------------------------------------------------
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{3}
+
+%----------------------------------------------------------------------------------------
+% CODIGO
+%----------------------------------------------------------------------------------------
+
+% Parte para los comandos (con lstlisting)
+\definecolor{gray95}{gray}{.95}
+\definecolor{gray85}{gray}{.80}
+\definecolor{gray45}{gray}{.45}
+\definecolor{mypink}{RGB}{177,48,112}
+\definecolor{myblue}{RGB}{56,133,231}
+\definecolor{shadecolor}{rgb}{0.61, 0.77, 0.89}
+\definecolor{HeaderCol}{rgb}{0.30, 0.6, 0.8}
+\definecolor{tittletable}{rgb}{0.13, 0.7, 0.8}
+\definecolor{carolinablue}{rgb}{0.6, 0.73, 0.89}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{ 
+	frame=Ltb,
+	framerule=0pt,
+	aboveskip=0.5cm,
+	framextopmargin=3pt,
+	framexbottommargin=3pt,
+	framexleftmargin=0.2cm,
+	framesep=0pt,
+	rulesep=2.0pt,
+	backgroundcolor=\color{gray95},
+	rulesepcolor=\color{black},
+	%
+	stringstyle=\ttfamily,
+	showstringspaces = false,
+	basicstyle=\small\ttfamily,
+	commentstyle=\color{gray45},
+	keywordstyle=\bfseries,
+	%
+	numbers=none,
+	breaklines=true,
+}
+
+% Minimizar fragmentado de listados
+%\lstnewenvironment{listing}[1][]
+%{\lstset{#1}\pagebreak[0]}{\pagebreak[0]}
+
+% Estilo de codigo para la consola
+\lstdefinelanguage{none}{}
+\lstdefinestyle{consola}{
+	language=none,
+	breaklines=true,
+	basicstyle=\footnotesize\bf\ttfamily,
+	backgroundcolor=\color{gray85},
+	rulesepcolor=\color{carolinablue},
+	numbers=none,
+}
+
+\lstdefinestyle{JAVA}{
+language=Java,
+aboveskip=3mm,
+belowskip=3mm,
+showstringspaces=false,
+columns=flexible,
+basicstyle={\small\ttfamily},
+numbers=none,
+numberstyle=\tiny\color{gray},
+keywordstyle=\color{blue},
+commentstyle=\color{dkgreen},
+stringstyle=\color{mauve},
+breaklines=true,
+breakatwhitespace=true,
+tabsize=3
+}
+
+
+% Parte para el código (con minted) (minted es mejor para código que lstlisting)
+\usemintedstyle{Java}
+
+\fboxsep=5mm%padding
+\fboxrule=2pt%border}
+

@@ -1,0 +1,71 @@
+\begin{thebibliography}{12}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[lom(2017)]{lombok}
+Lombok proyect, 2017.
+\newblock URL \url{https://projectlombok.org}.
+
+\bibitem[Martin(2017)]{ann}
+Robert~C. Martin.
+\newblock Androidannotations, 2017.
+\newblock URL \url{http://androidannotations.org/}.
+
+\bibitem[P.~Deemer and Vodde.(2013)]{scrum}
+C.~Larman P.~Deemer, G.~Benefield and B.~Vodde.
+\newblock \emph{Información Básica de Scrum}.
+\newblock Scrum Training Institute, 2013.
+\newblock URL \url{http://www.goodagile.com/scrumprimer/scrumprimer_es. pdf}.
+
+\bibitem[robles(2017)]{android}
+Carlos robles.
+\newblock Fundamentos del desarrollo de aplicaciones para android, 2017.
+\newblock URL
+  \url{https://www.slideshare.net/SantiagoSolis1/fundamentos_del_desarrollo_...}
+
+\bibitem[Villalobos(2016)]{javaFun}
+Ricardo Walter~Marcelo Villalobos.
+\newblock \emph{Fundamentos de programación Java}.
+\newblock Marcombo, 2016.
+
+\bibitem[wikipedia(2017{\natexlab{a}})]{astudio}
+wikipedia.
+\newblock Android studio, 2017{\natexlab{a}}.
+\newblock URL \url{https://es.wikipedia.org/wiki/Android_Studio}.
+
+\bibitem[wikipedia(2017{\natexlab{b}})]{eclipse}
+wikipedia.
+\newblock Eclipse (software), 2017{\natexlab{b}}.
+\newblock URL \url{https://es.wikipedia.org/wiki/Eclipse_(software)}.
+
+\bibitem[wikipedia(2017{\natexlab{c}})]{gradle}
+wikipedia.
+\newblock Gradle, 2017{\natexlab{c}}.
+\newblock URL \url{https://es.wikipedia.org/wiki/Gradle}.
+
+\bibitem[wikipedia(2017{\natexlab{d}})]{groovy}
+wikipedia.
+\newblock Groovy (lenguaje de programación), 2017{\natexlab{d}}.
+\newblock URL
+  \url{https://es.wikipedia.org/wiki/Groovy_(lenguaje_de_programacion)}.
+
+\bibitem[wikipedia(2017{\natexlab{e}})]{java}
+wikipedia.
+\newblock Java (lenguaje de programación), 2017{\natexlab{e}}.
+\newblock URL
+  \url{https://es.wikipedia.org/wiki/Java_(lenguaje_de_programacion)}.
+
+\bibitem[wikipedia(2017{\natexlab{f}})]{jaxrs}
+wikipedia.
+\newblock Jax-rs, 2017{\natexlab{f}}.
+\newblock URL \url{https://es.wikipedia.org/wiki/JAX-RS}.
+
+\bibitem[wikipedia(2017{\natexlab{g}})]{maven}
+wikipedia.
+\newblock Maven, 2017{\natexlab{g}}.
+\newblock URL \url{https://es.wikipedia.org/wiki/Maven}.
+
+\end{thebibliography}

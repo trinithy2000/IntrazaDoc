@@ -1,0 +1,122 @@
+\BOOKMARK [-1][-]{part.1}{Introducci\363n}{}% 1
+\BOOKMARK [0][-]{chapter.1}{Descripci\363n del proyecto}{part.1}% 2
+\BOOKMARK [1][-]{section.1.1}{Contexto}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.2}{Objetivos del proyecto}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.3}{C\363mo surgi\363 la idea}{chapter.1}% 5
+\BOOKMARK [-1][-]{part.2}{Viabilidad}{}% 6
+\BOOKMARK [0][-]{chapter.2}{An\341lisis de riesgos}{part.2}% 7
+\BOOKMARK [1][-]{section.2.1}{Fichas de riesgo}{chapter.2}% 8
+\BOOKMARK [0][-]{chapter.3}{Planificaci\363n del tiempo del proyecto}{part.2}% 9
+\BOOKMARK [1][-]{section.3.1}{Descripci\363n General de la Metodolog\355a}{chapter.3}% 10
+\BOOKMARK [2][-]{subsection.3.1.1}{Fundamentaci\363n}{section.3.1}% 11
+\BOOKMARK [2][-]{subsection.3.1.2}{Artefactos}{section.3.1}% 12
+\BOOKMARK [3][-]{subsubsection.3.1.2.1}{Pila de producto}{subsection.3.1.2}% 13
+\BOOKMARK [3][-]{subsubsection.3.1.2.2}{Pila del Sprint}{subsection.3.1.2}% 14
+\BOOKMARK [3][-]{subsubsection.3.1.2.3}{Sprint}{subsection.3.1.2}% 15
+\BOOKMARK [3][-]{subsubsection.3.1.2.4}{Gr\341fica de producto \(Burn Up\)}{subsection.3.1.2}% 16
+\BOOKMARK [3][-]{subsubsection.3.1.2.5}{Gr\341fica de avance \(Burn Down\)}{subsection.3.1.2}% 17
+\BOOKMARK [3][-]{subsubsection.3.1.2.6}{Reuni\363n de inicio de Sprint}{subsection.3.1.2}% 18
+\BOOKMARK [3][-]{subsubsection.3.1.2.7}{Reuni\363n t\351cnica diaria}{subsection.3.1.2}% 19
+\BOOKMARK [3][-]{subsubsection.3.1.2.8}{Reuni\363n de cierre de Sprint y entrega del incremento}{subsection.3.1.2}% 20
+\BOOKMARK [2][-]{subsection.3.1.3}{Particularidades de este proyecto}{section.3.1}% 21
+\BOOKMARK [1][-]{section.3.2}{Historias de usuario}{chapter.3}% 22
+\BOOKMARK [2][-]{subsection.3.2.1}{Listado de historias de usuario}{section.3.2}% 23
+\BOOKMARK [1][-]{section.3.3}{Product Backlog}{chapter.3}% 24
+\BOOKMARK [1][-]{section.3.4}{Estimaci\363n de costes del proyecto}{chapter.3}% 25
+\BOOKMARK [2][-]{subsection.3.4.1}{C\341lculo de costes del proyecto}{section.3.4}% 26
+\BOOKMARK [3][-]{subsubsection.3.4.1.1}{Recursos de trabajo}{subsection.3.4.1}% 27
+\BOOKMARK [3][-]{subsubsection.3.4.1.2}{Recursos materiales}{subsection.3.4.1}% 28
+\BOOKMARK [3][-]{subsubsection.3.4.1.3}{Costes totales}{subsection.3.4.1}% 29
+\BOOKMARK [1][-]{section.3.5}{Seguimiento del Proyecto}{chapter.3}% 30
+\BOOKMARK [2][-]{subsection.3.5.1}{1\272 Iteraci\363n}{section.3.5}% 31
+\BOOKMARK [3][-]{subsubsection.3.5.1.1}{Comentarios y conclusiones }{subsection.3.5.1}% 32
+\BOOKMARK [2][-]{subsection.3.5.2}{2\272 Iteraci\363n}{section.3.5}% 33
+\BOOKMARK [3][-]{subsubsection.3.5.2.1}{Comentarios y conclusiones }{subsection.3.5.2}% 34
+\BOOKMARK [2][-]{subsection.3.5.3}{3\272 Iteraci\363n}{section.3.5}% 35
+\BOOKMARK [3][-]{subsubsection.3.5.3.1}{Comentarios y conclusiones }{subsection.3.5.3}% 36
+\BOOKMARK [2][-]{subsection.3.5.4}{4\272 Iteraci\363n}{section.3.5}% 37
+\BOOKMARK [3][-]{subsubsection.3.5.4.1}{Comentarios y conclusiones }{subsection.3.5.4}% 38
+\BOOKMARK [2][-]{subsection.3.5.5}{5\272 Iteraci\363n}{section.3.5}% 39
+\BOOKMARK [3][-]{subsubsection.3.5.5.1}{Comentarios y conclusiones }{subsection.3.5.5}% 40
+\BOOKMARK [2][-]{subsection.3.5.6}{6\272 Iteraci\363n}{section.3.5}% 41
+\BOOKMARK [2][-]{subsection.3.5.7}{Final de iteraciones}{section.3.5}% 42
+\BOOKMARK [-1][-]{part.3}{Tecnolog\355as}{}% 43
+\BOOKMARK [0][-]{chapter.4}{Tecnolog\355as utilizadas}{part.3}% 44
+\BOOKMARK [1][-]{section.4.1}{Lenguajes utilizados}{chapter.4}% 45
+\BOOKMARK [1][-]{section.4.2}{Herramientas utilizadas}{chapter.4}% 46
+\BOOKMARK [1][-]{section.4.3}{Entornos de desarrollo}{chapter.4}% 47
+\BOOKMARK [1][-]{section.4.4}{\332ltimas consideraciones}{chapter.4}% 48
+\BOOKMARK [-1][-]{part.4}{Fundamentos}{}% 49
+\BOOKMARK [0][-]{chapter.5}{Fundamentos en la creaci\363n de aplicaciones}{part.4}% 50
+\BOOKMARK [1][-]{section.5.1}{Fundamentos de la creaci\363n de web-services JAVA}{chapter.5}% 51
+\BOOKMARK [2][-]{subsection.5.1.1}{Definici\363n}{section.5.1}% 52
+\BOOKMARK [2][-]{subsection.5.1.2}{Aspectos comunes de los web-services}{section.5.1}% 53
+\BOOKMARK [2][-]{subsection.5.1.3}{Caracter\355sticas}{section.5.1}% 54
+\BOOKMARK [2][-]{subsection.5.1.4}{SOAP}{section.5.1}% 55
+\BOOKMARK [2][-]{subsection.5.1.5}{REST}{section.5.1}% 56
+\BOOKMARK [2][-]{subsection.5.1.6}{API REST}{section.5.1}% 57
+\BOOKMARK [2][-]{subsection.5.1.7}{La elecci\363n}{section.5.1}% 58
+\BOOKMARK [1][-]{section.5.2}{Fundamentos de la creaci\363n de aplicaciones Android}{chapter.5}% 59
+\BOOKMARK [2][-]{subsection.5.2.1}{C\363mo funciona el sistema operativo Android}{section.5.2}% 60
+\BOOKMARK [2][-]{subsection.5.2.2}{Componentes de las Aplicaciones Android}{section.5.2}% 61
+\BOOKMARK [2][-]{subsection.5.2.3}{Manifiesto de una Aplicaci\363n Android \(Android manifest\)}{section.5.2}% 62
+\BOOKMARK [2][-]{subsection.5.2.4}{Creaci\363n y destrucci\363n de Aplicaciones y Actividades \(Ciclo de vida\)}{section.5.2}% 63
+\BOOKMARK [2][-]{subsection.5.2.5}{Recursos de las aplicaciones Android}{section.5.2}% 64
+\BOOKMARK [-1][-]{part.5}{Estructura}{}% 65
+\BOOKMARK [0][-]{chapter.6}{Dise\361o Y Estructura}{part.5}% 66
+\BOOKMARK [1][-]{section.6.1}{Descripci\363n general}{chapter.6}% 67
+\BOOKMARK [1][-]{section.6.2}{Servicio web}{chapter.6}% 68
+\BOOKMARK [2][-]{subsection.6.2.1}{Descripci\363n general}{section.6.2}% 69
+\BOOKMARK [2][-]{subsection.6.2.2}{Metodolog\355a empleada}{section.6.2}% 70
+\BOOKMARK [3][-]{subsubsection.6.2.2.1}{JAX-RS}{subsection.6.2.2}% 71
+\BOOKMARK [2][-]{subsection.6.2.3}{Dise\361o e implementaci\363n}{section.6.2}% 72
+\BOOKMARK [2][-]{subsection.6.2.4}{Diagramas}{section.6.2}% 73
+\BOOKMARK [1][-]{section.6.3}{Aplicaci\363n Android}{chapter.6}% 74
+\BOOKMARK [2][-]{subsection.6.3.1}{Descripci\363n general}{section.6.3}% 75
+\BOOKMARK [2][-]{subsection.6.3.2}{Metodolog\355a empleada}{section.6.3}% 76
+\BOOKMARK [2][-]{subsection.6.3.3}{Dise\361o e implementaci\363n}{section.6.3}% 77
+\BOOKMARK [2][-]{subsection.6.3.4}{Diagramas}{section.6.3}% 78
+\BOOKMARK [2][-]{subsection.6.3.5}{Pruebas}{section.6.3}% 79
+\BOOKMARK [3][-]{subsubsection.6.3.5.1}{Desarrollo del ERP de simulaci\363n}{subsection.6.3.5}% 80
+\BOOKMARK [3][-]{subsubsection.6.3.5.2}{Estructura B\341sica}{subsection.6.3.5}% 81
+\BOOKMARK [3][-]{subsubsection.6.3.5.3}{Dise\361o de la base de datos ERP}{subsection.6.3.5}% 82
+\BOOKMARK [-1][-]{part.6}{Conclusiones}{}% 83
+\BOOKMARK [0][-]{chapter.7}{Conclusiones}{part.6}% 84
+\BOOKMARK [1][-]{section.7.1}{Introducci\363n}{chapter.7}% 85
+\BOOKMARK [1][-]{section.7.2}{Conclusiones}{chapter.7}% 86
+\BOOKMARK [1][-]{section.7.3}{Planificaci\363n temporal final}{chapter.7}% 87
+\BOOKMARK [1][-]{section.7.4}{Conclusi\363n final}{chapter.7}% 88
+\BOOKMARK [-1][-]{part.7}{Anexos}{}% 89
+\BOOKMARK [0][-]{chapter.8}{ANEXO I}{part.7}% 90
+\BOOKMARK [1][-]{section.8.1}{Conceptos y aclaraciones}{chapter.8}% 91
+\BOOKMARK [2][-]{subsection.8.1.1}{Maven}{section.8.1}% 92
+\BOOKMARK [2][-]{subsection.8.1.2}{Gradle}{section.8.1}% 93
+\BOOKMARK [2][-]{subsection.8.1.3}{Anotaci\363n Java}{section.8.1}% 94
+\BOOKMARK [2][-]{subsection.8.1.4}{ERP}{section.8.1}% 95
+\BOOKMARK [2][-]{subsection.8.1.5}{Framework}{section.8.1}% 96
+\BOOKMARK [2][-]{subsection.8.1.6}{Grails}{section.8.1}% 97
+\BOOKMARK [0][-]{chapter.9}{ANEXO II}{part.7}% 98
+\BOOKMARK [1][-]{section.9.1}{Manual de usuario}{chapter.9}% 99
+\BOOKMARK [2][-]{subsection.9.1.1}{Pantalla principal}{section.9.1}% 100
+\BOOKMARK [2][-]{subsection.9.1.2}{Creaci\363n de pedidos}{section.9.1}% 101
+\BOOKMARK [2][-]{subsection.9.1.3}{Gesti\363n de pedidos}{section.9.1}% 102
+\BOOKMARK [2][-]{subsection.9.1.4}{Sincronizar con Intraza}{section.9.1}% 103
+\BOOKMARK [2][-]{subsection.9.1.5}{Configuraci\363n}{section.9.1}% 104
+\BOOKMARK [0][-]{chapter.10}{ANEXO III}{part.7}% 105
+\BOOKMARK [1][-]{section.10.1}{Gu\355as de Instalaci\363n}{chapter.10}% 106
+\BOOKMARK [2][-]{subsection.10.1.1}{Instalaci\363n del Sistema M\341quina Virtual Ubuntu}{section.10.1}% 107
+\BOOKMARK [3][-]{subsubsection.10.1.1.1}{M\341quina virtual Ubuntu}{subsection.10.1.1}% 108
+\BOOKMARK [2][-]{subsection.10.1.2}{Instalar Eclipse}{section.10.1}% 109
+\BOOKMARK [2][-]{subsection.10.1.3}{Instalar Android studio}{section.10.1}% 110
+\BOOKMARK [2][-]{subsection.10.1.4}{Instalar Xamp}{section.10.1}% 111
+\BOOKMARK [2][-]{subsection.10.1.5}{Instalar Tomcat}{section.10.1}% 112
+\BOOKMARK [0][-]{chapter.11}{ANEXO IV}{part.7}% 113
+\BOOKMARK [1][-]{section.11.1}{Configuracion de los proyectos cliente y servidor}{chapter.11}% 114
+\BOOKMARK [2][-]{subsection.11.1.1}{Creaci\363n del proyecto web service}{section.11.1}% 115
+\BOOKMARK [2][-]{subsection.11.1.2}{Integrar un cliente web service}{section.11.1}% 116
+\BOOKMARK [0][-]{chapter.12}{ANEXO V}{part.7}% 117
+\BOOKMARK [1][-]{section.12.1}{Compilaci\363n de los proyectos}{chapter.12}% 118
+\BOOKMARK [2][-]{subsection.12.1.1}{Compilaci\363n Android}{section.12.1}% 119
+\BOOKMARK [2][-]{subsection.12.1.2}{Compilaci\363n Eclipse}{section.12.1}% 120
+\BOOKMARK [3][-]{subsubsection.12.1.2.1}{POM}{subsection.12.1.2}% 121
+\BOOKMARK [3][-]{subsubsection.12.1.2.2}{Run options}{subsection.12.1.2}% 122
