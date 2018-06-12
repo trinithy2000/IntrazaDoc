@@ -10,6 +10,7 @@ A level-1 auxiliary file: tex/fundamentos.aux
 A level-1 auxiliary file: tex/estructura.aux
 A level-1 auxiliary file: tex/conclusiones.aux
 A level-1 auxiliary file: tex/glosario.aux
+A level-1 auxiliary file: tex/anexos.aux
 The style file: plainnat.bst
 Database file #1: biblio.bib
 Warning--entry type for "eclipse" isn't style-file defined
@@ -32,6 +33,14 @@ Warning--entry type for "ann" isn't style-file defined
 --line 72 of file biblio.bib
 Warning--entry type for "lombok" isn't style-file defined
 --line 79 of file biblio.bib
+Warning--entry type for "int20" isn't style-file defined
+--line 85 of file biblio.bib
+Warning--entry type for "intWeb" isn't style-file defined
+--line 92 of file biblio.bib
+Warning--entry type for "intErp" isn't style-file defined
+--line 98 of file biblio.bib
+Warning--entry type for "intDoc" isn't style-file defined
+--line 104 of file biblio.bib
 Name 1 in "P. Deemer, G. Benefield, C. Larman, and B. Vodde." has a comma at the end for entry scrum
 while executing---line 1347 of file plainnat.bst
 Name 1 in "P. Deemer, G. Benefield, C. Larman, and B. Vodde." has a comma at the end for entry scrum
@@ -41,45 +50,45 @@ Name 1 in "P. Deemer, G. Benefield, C. Larman, and B. Vodde." has a comma at the
 while executing---line 1429 of file plainnat.bst
 Name 1 in "P. Deemer, G. Benefield, C. Larman, and B. Vodde." has a comma at the end for entry scrum
 while executing---line 1429 of file plainnat.bst
-You've used 12 entries,
+You've used 16 entries,
             2773 wiz_defined-function locations,
-            647 strings with 5997 characters,
-and the built_in function-call counts, 3624 in all, are:
-= -- 311
-> -- 121
-< -- 11
-+ -- 54
-- -- 36
-* -- 207
-:= -- 538
-add.period$ -- 36
-call.type$ -- 12
-change.case$ -- 46
-chr.to.int$ -- 6
-cite$ -- 26
-duplicate$ -- 190
-empty$ -- 388
-format.name$ -- 49
-if$ -- 776
-int.to.chr$ -- 7
+            665 strings with 6294 characters,
+and the built_in function-call counts, 4820 in all, are:
+= -- 415
+> -- 161
+< -- 15
++ -- 73
+- -- 48
+* -- 275
+:= -- 716
+add.period$ -- 48
+call.type$ -- 16
+change.case$ -- 62
+chr.to.int$ -- 7
+cite$ -- 34
+duplicate$ -- 250
+empty$ -- 516
+format.name$ -- 65
+if$ -- 1032
+int.to.chr$ -- 10
 int.to.str$ -- 1
 missing$ -- 4
-newline$ -- 68
-num.names$ -- 44
-pop$ -- 145
+newline$ -- 88
+num.names$ -- 60
+pop$ -- 193
 preamble$ -- 1
-purify$ -- 36
+purify$ -- 48
 quote$ -- 0
-skip$ -- 160
+skip$ -- 211
 stack$ -- 0
-substring$ -- 25
-swap$ -- 19
+substring$ -- 33
+swap$ -- 27
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 122
+type$ -- 166
 warning$ -- 1
-while$ -- 33
+while$ -- 45
 width$ -- 0
-write$ -- 151
+write$ -- 199
 (There were 4 error messages)

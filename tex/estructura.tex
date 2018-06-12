@@ -4,11 +4,11 @@ En este capítulo se describe el diseño final del funcionamiento de la aplicaci
 
 
 \section{Descripción general}
-La solución propuesta, se compone de dos componentes diferenciados , por un lado una aplicación Android y por otro lado un servicio web.
+La solución propuesta, se compone de dos componentes diferenciados , por un lado una aplicación Android y por otro lado un servicio web\cite{intWeb}
 
-El servicio se comporta como una interface entre la aplicación Android y la plataforma ERP\textsuperscript{\textit{[\ref{glo:erp}]}} que dispone el cliente. A través de la base de datos del ERP el servicio recupera los datos necesarios para proveer a la aplicación Android y también inserta los prepedidos realizados por la misma.
+El servicio se comporta como una interface entre la aplicación Android y la plataforma ERP\textsuperscript{\textit{[\ref{glo:erp}]}} que dispone el cliente. A través de la base de datos del ERP el servicio recupera los datos necesarios para proveer a la aplicación Android y también inserta los prepedidos realizados por la misma.\cite{intErp}
 
-Una de las principales características de la aplicación Android, es que tiene que disponer de los datos necesarios para operar, aunque no dispongamos de conexión en este momento. Para ello dispone de una opción de sincronización de sus datos almacenados con los datos actualizados por la empresa. Para optimizar su rendimiento intentado realizar el menor numero de conexiones, se puede configurar el nº de registros por conexión queremos recuperar.
+Una de las principales características de la aplicación Android, es que tiene que disponer de los datos necesarios para operar, aunque no dispongamos de conexión en este momento. \cite{int20} Para ello dispone de una opción de sincronización de sus datos almacenados con los datos actualizados por la empresa. Para optimizar su rendimiento intentado realizar el menor numero de conexiones, se puede configurar el nº de registros por conexión queremos recuperar.
 
 A efectos de estructurar los datos durante las comunicaciones, la opción elegida es el estándar JSON, que sera explicado mas adelante. 
 

@@ -1,4 +1,4 @@
-\begin{thebibliography}{12}
+\begin{thebibliography}{16}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -8,6 +8,26 @@
 \bibitem[lom(2017)]{lombok}
 Lombok proyect, 2017.
 \newblock URL \url{https://projectlombok.org}.
+
+\bibitem[J.I.Cuerno(2018{\natexlab{a}})]{int20}
+J.I.Cuerno.
+\newblock Intraza20 android), 2018{\natexlab{a}}.
+\newblock URL \url{https://github.com/trinithy2000/intraza20}.
+
+\bibitem[J.I.Cuerno(2018{\natexlab{b}})]{intDoc}
+J.I.Cuerno.
+\newblock Documentación), 2018{\natexlab{b}}.
+\newblock URL \url{https://github.com/trinithy2000/IntrazaDoc}.
+
+\bibitem[J.I.Cuerno(2018{\natexlab{c}})]{intErp}
+J.I.Cuerno.
+\newblock Erp sample groovy), 2018{\natexlab{c}}.
+\newblock URL \url{https://github.com/trinithy2000/erpSample}.
+
+\bibitem[J.I.Cuerno(2018{\natexlab{d}})]{intWeb}
+J.I.Cuerno.
+\newblock Intrazaweb), 2018{\natexlab{d}}.
+\newblock URL \url{https://github.com/trinithy2000/IntrazaWeb}.
 
 \bibitem[Martin(2017)]{ann}
 Robert~C. Martin.
